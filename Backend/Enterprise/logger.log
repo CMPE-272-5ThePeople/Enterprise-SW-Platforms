@@ -1,0 +1,45 @@
+2021-11-24 15:44:23,968 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-11-24 15:44:23,968 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-11-24 15:44:23,968 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-11-24 15:44:23,968 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-11-24 23:44:24,432 asyncio      DEBUG    Using selector: KqueueSelector
+2021-11-24 15:45:03,779 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-11-24 15:45:03,779 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-11-24 15:45:03,779 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-11-24 15:45:03,779 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-11-24 23:45:04,248 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-11-24 23:45:04,248 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-11-24 23:45:04,248 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-11-24 23:45:04,248 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-11-24 23:45:04,388 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-11-24 15:46:39,783 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-11-24 15:46:39,784 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-11-24 15:46:39,784 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-11-24 15:46:39,784 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-11-24 23:46:40,208 asyncio      DEBUG    Using selector: KqueueSelector
+2021-11-24 15:47:38,153 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-11-24 15:47:38,153 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-11-24 15:47:38,153 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-11-24 15:47:38,153 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-11-24 23:47:38,534 asyncio      DEBUG    Using selector: KqueueSelector
+2021-11-24 15:47:46,142 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-11-24 15:47:46,142 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-11-24 15:47:46,143 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-11-24 15:47:46,143 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-11-24 23:47:46,596 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-11-24 23:47:46,597 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-11-24 23:47:46,597 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-11-24 23:47:46,597 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-11-24 23:47:46,739 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-11-24 23:47:46,921 asyncio      DEBUG    Using selector: KqueueSelector
+2021-11-24 15:48:07,985 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-11-24 15:48:07,985 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-11-24 15:48:07,985 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-11-24 15:48:07,985 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-11-24 23:48:08,454 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-11-24 23:48:08,454 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-11-24 23:48:08,454 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-11-24 23:48:08,454 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-11-24 23:48:08,592 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-11-24 23:52:09,870 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): dev-kmut4dx9.us.auth0.com:443
+2021-11-24 23:52:10,148 urllib3.connectionpool DEBUG    https://dev-kmut4dx9.us.auth0.com:443 "POST /oauth/token HTTP/1.1" 200 None
