@@ -1095,3 +1095,18 @@ LINE 1: SELECT COUNT(*) AS "__count" FROM "employees_department"
 2021-12-02 04:38:29,517 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
 2021-12-02 04:38:39,595 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
 2021-12-02 04:38:39,596 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2021-12-01 21:22:21,684 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 21:22:21,686 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 21:22:21,686 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 21:22:21,686 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 05:22:22,225 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 21:22:37,310 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 21:22:37,310 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 21:22:37,310 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 21:22:37,310 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 05:22:37,730 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 21:22:43,787 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 21:22:43,787 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 21:22:43,787 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 21:22:43,787 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 05:22:44,088 asyncio      DEBUG    Using selector: KqueueSelector

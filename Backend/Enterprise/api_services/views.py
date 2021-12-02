@@ -13,6 +13,7 @@ from notifications.models import Notifications
 from employees.models import Employee
 from projects.models import Projects
 from trainings.models import Training
+from company_blog.models import Post
 
 
 # Create your views here.
@@ -144,4 +145,23 @@ class ProjectView(APIView):
         else:
             return Response({"status": "error",
                              "project_data": serializer.errors},
+                            status=status.HTTP_400_BAD_REQUEST)
+
+
+class BlogViews(APIView):
+    def get(self, request):
+        try:
+            all_post_objects = Post.objects.all().values()
+            api_response = {}
+
+            for objects in all_post_objects:
+                # TODO ADD Data
+                api_response[objects['id']] = {}
+
+            return Response({"status": "success",
+                             "blog_data": api_response},
+                            status=status.HTTP_200_OK)
+        except Exception as e:
+            return Response({"status": "error",
+                             "blog_data": str(e)},
                             status=status.HTTP_400_BAD_REQUEST)
