@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import EmployeeViews, get_log_file
+from .views import EmployeeViews, NotificationViews
 
 urlpatterns = [
     path('', EmployeeViews.as_view(), name="employee_names"),
-    path('debug/', get_log_file, name="log_file"),
+    path('get_all_notifications/', NotificationViews.as_view(), name="notification_views"),
 ]

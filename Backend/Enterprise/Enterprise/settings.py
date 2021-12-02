@@ -30,7 +30,7 @@ logging.config.dictConfig({
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
             'formatter': 'file',
-            'filename': 'logger.log'
+            'filename': 'production.log'
         }
     },
     'loggers': {
@@ -64,8 +64,10 @@ INSTALLED_APPS = [
     'rest_framework',  # django rest framework app
     'social_django',  # django social app
     'api_services',  # rest api app
+
     'documents_api',  # documents api app
     'authentication',  # authentication app
+    'notifications',  # notifications app
 ]
 
 MIDDLEWARE = [
@@ -105,33 +107,19 @@ WSGI_APPLICATION = 'Enterprise.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-if DEBUG:
-    print("Using Local Postgresql Database")
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'USER': 'postgres',
-            'NAME': 'enterprise_application_testing_database',  # add your local user name here
-            'PASSWORD': 'aryan',  # add your local db password here
-            'HOST': 'localhost',
-            'PORT': '5432'
-        }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': config_file['postgres_database']['database'],
+        'USER': config_file['postgres_database']['username'],
+        'PASSWORD': config_file['postgres_database']['password'],
+        'HOST': config_file['postgres_database']['host'],
+        'PORT': config_file['postgres_database']['port']
     }
-else:
-    print("Using Digital Ocean Postgresql Database")
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': config_file['postgres_database']['database'],
-            'USER': config_file['postgres_database']['username'],
-            'PASSWORD': config_file['postgres_database']['password'],
-            'HOST': config_file['postgres_database']['host'],
-            'PORT': config_file['postgres_database']['port']
-        }
-    }
-    # database connection check in seconds
-    db_from_env = dj_database_url.config(conn_max_age=1000)
-    DATABASES['default'].update(db_from_env)
+}
+# database connection check in seconds
+db_from_env = dj_database_url.config(conn_max_age=1000)
+DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -211,7 +199,6 @@ AUTHENTICATION_BACKENDS = {
     'authentication.auth0backend.Auth0',
     'django.contrib.auth.backends.ModelBackend'
 }
-
 
 LOGIN_URL = '/login/auth0'
 LOGIN_REDIRECT_URL = '/dashboard'

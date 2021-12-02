@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from .models import APITest
+from notifications.models import Notifications
 
 
 class APITestSerializer(serializers.ModelSerializer):
@@ -8,4 +9,10 @@ class APITestSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = APITest
+        fields = '__all__'
+
+
+class NotificationsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Notifications
         fields = '__all__'
