@@ -1,0 +1,48 @@
+<div class="loading authentication-bg" data-layout-config='{"darkMode":false}'>
+    <div class="account-pages pt-4 pt-sm-5 pb-4 pb-sm-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-4 col-lg-5">
+                    <div class="card">
+                        <!-- Logo -->
+                        <div class="card-header pt-2 pb-2 text-center bg-primary">
+                            <a routerLink="/home">
+                                <span><img src="../../assets/Omega-logos_white.png" alt="" height="60"></span>
+                            </a>
+                        </div>
+
+                        <div class="card-body p-4">
+
+                            <div class="text-center w-75 m-auto">
+                                <h4 class="text-dark-50 text-center mt-0 fw-bold">Sign Up new users</h4>
+                            </div><br>
+                            <form (submit)="onSignup(signupForm)" #signupForm="ngForm">
+                                <label for="email"><b>First name</b></label><br>
+                                <input type="text" ngModel #fnameInput="ngModel" [(ngModel)]="fname"
+                                    placeholder="Enter First name" name="fname" id="fname" required>
+                                    <br>
+                                <label for="email"><b>Last name</b></label><br>
+                                <input type="text" ngModel #lnameInput="ngModel" [(ngModel)]="lname"
+                                    placeholder="Enter Last name" name="lname" id="lname" required>
+                                    <br>
+                                <label for="email"><b>Email</b></label><br>
+                                <input type="text" ngModel #emailInput="ngModel" [(ngModel)]="email"
+                                    placeholder="Enter Email" name="email" id="email" required>
+                                    <br>
+                                <label for="email"><b>Mobile No.</b></label><br>
+                                <input type="text" ngModel #mobileNoInput="ngModel" [(ngModel)]="mobileNo"
+                                    placeholder="Enter mobile no" name="mobileNo" id="mobileNo" required>
+                                    <br>
+                                <label for="psw"><b>Password</b></label><br>
+                                <input type="password" name="password" ngModel minlength="8" #passwordInput="ngModel"
+                                    [(ngModel)]="password" placeholder="Enter Password" id="psw" required>
+                                    <br><br>
+                                <button type="submit" class="btn btn-primary registerbtn">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

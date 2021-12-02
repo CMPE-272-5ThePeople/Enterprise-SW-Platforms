@@ -16,11 +16,13 @@
                     </div>
                 </form>
             </div>
-            <a *ngIf="!loginValue" class="nav-link dropdown-toggle arrow-none pull-right" data-bs-toggle="modal" data-bs-target="#standard-modal" role="button" aria-haspopup="true" aria-expanded="false">
+            <a *ngIf="!loginValue" class="nav-link dropdown-toggle arrow-none pull-right" data-bs-toggle="modal"
+                data-bs-target="#standard-modal" role="button" aria-haspopup="true" aria-expanded="false">
                 <i class="fa fa-bell" style="font-size: 30px;"></i>
                 <span class="noti-icon-badge"></span>
             </a>
-            <div id="standard-modal" *ngIf="!loginValue" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="standard-modalLabel" aria-hidden="true">
+            <div id="standard-modal" *ngIf="!loginValue" class="modal fade" tabindex="-1" role="dialog"
+                aria-labelledby="standard-modalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -28,10 +30,15 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true"></button>
                         </div>
                         <div class="modal-body">
-                            <div *ngFor="let item of finalnotifications">
-                                <h4>{{item.message}}</h4>
-                                <h6>Posted at: {{item.timestamp|date:'medium'}}</h6>
-                                <hr>
+                            <div *ngIf="finalnotifications.length">
+                                <div *ngFor="let item of finalnotifications">
+                                    <h4>{{item.message}}</h4>
+                                    <h6>Posted at: {{item.timestamp|date:'medium'}}</h6>
+                                    <hr>
+                                </div>
+                            </div>
+                            <div *ngIf="!finalnotifications.length">
+                                No new notifications
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -53,7 +60,8 @@
         margin-right: 4%;
         margin-top: 10px;
     }
+
     .modal-backdrop.show {
-        z-index: 1!important;
+        z-index: 1 !important;
     }
 </style>

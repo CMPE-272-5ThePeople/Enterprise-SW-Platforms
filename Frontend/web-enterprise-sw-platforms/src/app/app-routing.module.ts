@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { AdminPageComponent } from './admin-page/admin-page.component';
 import { AuthGuard } from './auth-guard';
+import { SignUpComponent } from './auth/sign-up/sign-up.component';
 import { EmployeePageComponent } from './employee-page/employee-page.component';
 import { LoginPageComponent } from './login-page/login-page.component'
 import { ManagerPageComponent } from './manager-page/manager-page.component';
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'admin', component: AdminPageComponent },
   { path: 'omega', component: OmegaPageComponent, canActivate: [AuthGuard] },
   { path: 'noaccess', component: NoAccessComponent},
+  {path: 'signup', component:SignUpComponent},
   { path: '**', redirectTo: 'home' }
 ];
 

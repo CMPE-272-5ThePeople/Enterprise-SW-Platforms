@@ -41,6 +41,40 @@ class Department(models.Model):
         return self.name
 
 
+class Project(models.Model):
+    name = models.CharField(max_length=125)
+    description = models.CharField(max_length=125, null=True, blank=True)
+    manager_name = models.CharField(max_length=125, null=True, blank=True)
+
+    created = models.DateTimeField(verbose_name=_('Created'), auto_now_add=True)
+    updated = models.DateTimeField(verbose_name=_('Updated'), auto_now=True)
+
+    class Meta:
+        verbose_name = _('Project')
+        verbose_name_plural = _('Project')
+        ordering = ['name', 'created']
+
+    def __str__(self):
+        return self.name
+
+
+class Training(models.Model):
+    name = models.CharField(max_length=125)
+    description = models.CharField(max_length=125, null=True, blank=True)
+    total_time = models.IntegerField(default=1)
+
+    created = models.DateTimeField(verbose_name=_('Created'), auto_now_add=True)
+    updated = models.DateTimeField(verbose_name=_('Updated'), auto_now=True)
+
+    class Meta:
+        verbose_name = _('Training')
+        verbose_name_plural = _('Training')
+        ordering = ['name', 'created']
+
+    def __str__(self):
+        return self.name
+
+
 class Employee(models.Model):
     MALE = 'male'
     FEMALE = 'female'
@@ -95,10 +129,13 @@ class Employee(models.Model):
     department = models.ForeignKey(Department, verbose_name=_('Department'), on_delete=models.SET_NULL, null=True,
                                    default=None)
     role = models.ForeignKey(Role, verbose_name=_('Role'), on_delete=models.SET_NULL, null=True, default=None)
+    project = models.ForeignKey(Project, verbose_name=_('Project'), on_delete=models.SET_NULL, null=True, default=None)
+    training = models.ManyToManyField(Training, default=None)
+
     startdate = models.DateField(_('Employement Date'), help_text='date of employement', blank=False, null=True)
     employeetype = models.CharField(_('Employee Type'), max_length=15, default=FULL_TIME, choices=EMPLOYEETYPE,
                                     blank=False, null=True)
-    employeeid = models.CharField(_('Employee ID Number'), max_length=10, null=True, blank=True)
+    employeeid = models.CharField(_('Employee ID Number'), max_length=30, null=True, blank=True)
     dateissued = models.DateField(_('Date Issued'), help_text='date staff id was issued', blank=False, null=True)
 
     # app related

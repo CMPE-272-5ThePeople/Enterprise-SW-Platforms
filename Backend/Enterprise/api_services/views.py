@@ -4,7 +4,7 @@ from django.http import HttpResponse
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from employee.models import Employee, Department, Role, Leave
+from employee.models import Employee, Department, Role, Leave, Project
 from notifications.models import Notifications
 from .serializers import NotificationsSerializer
 from django.http import JsonResponse
@@ -18,7 +18,6 @@ class EmployeeViews(APIView):
         try:
             all_employee_objects = Employee.objects.all().values()
             api_response = {}
-
             for objects in all_employee_objects:
                 api_response[objects['id']] = {
                     'image': objects['image'],
@@ -26,7 +25,6 @@ class EmployeeViews(APIView):
                     'lastname': objects['lastname'],
                     'othername': objects['othername'],
                     'birthday': objects['birthday'],
-                    'role_id': objects['role_id'],
                     'startdate': objects['startdate'],
                     'employeetype': objects['employeetype'],
                     'employeeid': objects['employeeid'],
@@ -36,6 +34,27 @@ class EmployeeViews(APIView):
                     'created': objects['created'],
                     'updated': objects['updated']
                 }
+                try:
+                    api_response[objects['id']].update({
+                        'department_name': Department.objects.filter(id=objects['department_id']).values()[0]['name']
+                    })
+                except Exception as e:
+                    print(e)
+
+                try:
+                    api_response[objects['id']].update({
+                        'role_name': Role.objects.filter(id=objects['role_id']).values()[0]['name']
+                    })
+                except Exception as e:
+                    print(e)
+
+                try:
+                    api_response[objects['id']].update({
+                        'project_name': Project.objects.filter(id=objects['project_id']).values()[0]['name']
+                    })
+                except Exception as e:
+                    print(e)
+
             return Response({"status": "success",
                              "employee_data": api_response},
                             status=status.HTTP_200_OK)
@@ -97,7 +116,6 @@ class LeaveViews(APIView):
             api_response = {}
 
             for objects in all_leave_objects:
-                print(objects)
                 api_response[objects['id']] = {
                     'user_id': objects['user_id'],
                     'startdate': objects['startdate'],

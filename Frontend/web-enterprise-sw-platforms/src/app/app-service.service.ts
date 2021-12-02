@@ -25,4 +25,9 @@ export class AppServiceService {
     formData.append('message', message);
     return this.httpClient.post('https://omega-django-backend.herokuapp.com/api/get_all_notifications/', formData)
   }
+
+
+  public getEmployees() {
+    return this.httpClient.get('http://employee-management-enterprise.herokuapp.com/api/get_employee_details/')
+  }
 }
