@@ -1,1 +1,1 @@
-web: gunicorn Enterprise.wsgi
+web: gunicorn hrsuit.wsgi

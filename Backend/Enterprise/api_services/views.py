@@ -1,23 +1,16 @@
 from django.shortcuts import render
 import json
 from django.http import HttpResponse
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from employee.models import Employee, Department, Role, Leave
 from django.http import JsonResponse
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import logout as log_out
 
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
-from .serializers import EmployeeSerializer, NotificationsSerializer, TrainingSerializer, ProjectSerializer
-from notifications.models import Notifications
-from employees.models import Employee
-from projects.models import Projects
-from trainings.models import Training
-from company_blog.models import Post
-
 
 # Create your views here.
-# @login_required
 class EmployeeViews(APIView):
     def get(self, request):
         try:
@@ -25,15 +18,22 @@ class EmployeeViews(APIView):
             api_response = {}
 
             for objects in all_employee_objects:
-                api_response[objects['employee_id']] = {'employee_id': objects['employee_id'],
-                                                        'employee_first_name': objects['employee_first_name'],
-                                                        'employee_last_name': objects['employee_last_name'],
-                                                        'employee_designation': objects['employee_designation'],
-                                                        'employee_gender': objects['employee_gender'],
-                                                        'employee_manager_id': objects['employee_manager_id'],
-                                                        'employee_email_id': objects['employee_email_id']
-                                                        }
-
+                api_response[objects['id']] = {
+                    'image': objects['image'],
+                    'firstname': objects['firstname'],
+                    'lastname': objects['lastname'],
+                    'othername': objects['othername'],
+                    'birthday': objects['birthday'],
+                    'role_id': objects['role_id'],
+                    'startdate': objects['startdate'],
+                    'employeetype': objects['employeetype'],
+                    'employeeid': objects['employeeid'],
+                    'dateissued': objects['dateissued'],
+                    'is_blocked': objects['is_blocked'],
+                    'is_deleted': objects['is_deleted'],
+                    'created': objects['created'],
+                    'updated': objects['updated']
+                }
             return Response({"status": "success",
                              "employee_data": api_response},
                             status=status.HTTP_200_OK)
@@ -42,126 +42,76 @@ class EmployeeViews(APIView):
                              "employee_data": str(e)},
                             status=status.HTTP_400_BAD_REQUEST)
 
-    def post(self, request):
-        serializer = EmployeeSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response({"status": "success",
-                             "employee_data": serializer.data},
-                            status=status.HTTP_200_OK)
-        else:
-            return Response({"status": "error",
-                             "employee_data": serializer.errors},
-                            status=status.HTTP_400_BAD_REQUEST)
-
 
 # Create your views here.
-class NotificationViews(APIView):
+class DepartmentViews(APIView):
     def get(self, request):
         try:
-            all_notifications_objects = Notifications.objects.all().values()
+            all_department_objects = Department.objects.all().values()
             api_response = {}
-            for objects in all_notifications_objects:
-                api_response[objects['id']] = {'message': objects['message'],
-                                               'timestamp': objects['timestamp']}
 
+            for objects in all_department_objects:
+                api_response[objects['id']] = {
+                    'name': objects['name'],
+                    'description': objects['description'],
+                    'created': objects['created'],
+                    'updated': objects['updated']
+                }
             return Response({"status": "success",
-                             "notification_data": api_response},
+                             "department_data": api_response},
                             status=status.HTTP_200_OK)
         except Exception as e:
             return Response({"status": "error",
-                             "notification_data": str(e)},
-                            status=status.HTTP_400_BAD_REQUEST)
-
-    def post(self, request):
-        serializer = NotificationsSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response({"status": "success",
-                             "notification_data": serializer.data},
-                            status=status.HTTP_200_OK)
-        else:
-            return Response({"status": "error",
-                             "notification_data": serializer.errors},
+                             "department_data": str(e)},
                             status=status.HTTP_400_BAD_REQUEST)
 
 
-# Create your views here.
-class TrainingViews(APIView):
+class RoleViews(APIView):
     def get(self, request):
         try:
-            all_training_objects = Training.objects.all().values()
+            all_role_objects = Role.objects.all().values()
             api_response = {}
-            for objects in all_training_objects:
-                # TODO - Add here
-                api_response[objects['id']] = {}
 
+            for objects in all_role_objects:
+                api_response[objects['id']] = {
+                    'name': objects['name'],
+                    'description': objects['description'],
+                    'created': objects['created'],
+                    'updated': objects['updated']
+                }
             return Response({"status": "success",
-                             "training_data": api_response},
+                             "role_data": api_response},
                             status=status.HTTP_200_OK)
         except Exception as e:
             return Response({"status": "error",
-                             "training_data": str(e)},
-                            status=status.HTTP_400_BAD_REQUEST)
-
-    def post(self, request):
-        serializer = TrainingSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response({"status": "success",
-                             "training_data": serializer.data},
-                            status=status.HTTP_200_OK)
-        else:
-            return Response({"status": "error",
-                             "training_data": serializer.errors},
+                             "role_data": str(e)},
                             status=status.HTTP_400_BAD_REQUEST)
 
 
-class ProjectView(APIView):
+class LeaveViews(APIView):
     def get(self, request):
         try:
-            all_employee_objects = Projects.objects.all().values()
+            all_leave_objects = Leave.objects.all().values()
             api_response = {}
 
-            for objects in all_employee_objects:
-                # TODO - Add here
-                api_response[objects['id']] = {}
-
+            for objects in all_leave_objects:
+                print(objects)
+                api_response[objects['id']] = {
+                    'user_id': objects['user_id'],
+                    'startdate': objects['startdate'],
+                    'enddate': objects['enddate'],
+                    'leavetype': objects['leavetype'],
+                    'reason': objects['reason'],
+                    'defaultdays': objects['defaultdays'],
+                    'status': objects['status'],
+                    'is_approved': objects['is_approved'],
+                    'updated': objects['updated'],
+                    'created': objects['created'],
+                }
             return Response({"status": "success",
-                             "project_data": api_response},
+                             "leave_details": api_response},
                             status=status.HTTP_200_OK)
         except Exception as e:
             return Response({"status": "error",
-                             "employee_data": str(e)},
-                            status=status.HTTP_400_BAD_REQUEST)
-
-    def post(self, request):
-        serializer = ProjectSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response({"status": "success",
-                             "project_data": serializer.data},
-                            status=status.HTTP_200_OK)
-        else:
-            return Response({"status": "error",
-                             "project_data": serializer.errors},
-                            status=status.HTTP_400_BAD_REQUEST)
-
-
-class BlogViews(APIView):
-    def get(self, request):
-        try:
-            all_post_objects = Post.objects.all().values()
-            api_response = {}
-
-            for objects in all_post_objects:
-                # TODO ADD Data
-                api_response[objects['id']] = {}
-
-            return Response({"status": "success",
-                             "blog_data": api_response},
-                            status=status.HTTP_200_OK)
-        except Exception as e:
-            return Response({"status": "error",
-                             "blog_data": str(e)},
+                             "leave_details": str(e)},
                             status=status.HTTP_400_BAD_REQUEST)
