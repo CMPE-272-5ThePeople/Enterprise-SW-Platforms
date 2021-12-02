@@ -25,9 +25,6 @@ export class AppComponent {
         }
       })
   }
-  checkRoute() {
-    return this.router.url === '/emp'
-  }
   getData () {
     this.service.getNotifications().subscribe(response => {
       this.notifications = Object.values(response)
