@@ -8,10 +8,10 @@ function requireHTTPS(req, res, next) {
 const express = require('express');
 const app = express();
 app.use(requireHTTPS);
-if (process.env.NODE_ENV === 'production') {
-	app.use(express.static('client/build'));
-}
 app.get('*', (request, response) => {
 	response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static('client/build'));
+}
 app.listen(process.env.PORT || 8080);
