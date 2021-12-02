@@ -23,17 +23,21 @@
                         <div class="page-title-box">
                             <h4 class="page-title">Post Notifications</h4>
                         </div>
+                        <div class="alert alert-success alert-dismissible bg-success text-white border-0 fade show" role="alert">
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            <strong>Success - </strong> Successfully posted notification!
+                        </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <div class="mb-3">
-                                <label for="example-textarea" class="form-label">Enter notifications to be posted to the organization</label>
-                                <textarea class="form-control" id="example-textarea" rows="5"></textarea>
+                                <label for="example-textarea" class="form-label">Enter notifications to be posted to the
+                                    organization</label>
+                                <textarea class="form-control" id="example-textarea" rows="5" [(ngModel)]="notification"></textarea>
                             </div>
-                            <button type="button" class="btn btn-primary pull-right">Post</button>
+                            <button type="button" class="btn btn-primary pull-right" (click)="sendNotifications()">Post</button>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

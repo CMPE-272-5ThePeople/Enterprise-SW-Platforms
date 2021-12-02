@@ -10,6 +10,10 @@ import { AdminPageComponent } from './admin-page/admin-page.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { OmegaPageComponent } from './omega-page/omega-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { NoAccessComponent } from './no-access/no-access.component';
+import { AuthGuard } from './auth-guard';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,14 +23,17 @@ import { ReactiveFormsModule } from '@angular/forms';
     ManagerPageComponent,
     AdminPageComponent,
     AboutPageComponent,
-    OmegaPageComponent
+    OmegaPageComponent,
+    NoAccessComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
