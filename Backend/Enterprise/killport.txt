@@ -1,4 +1,4 @@
-lsof -t -i tcp:8000 | xargs kill -9
+lsof -t -i tcp:7000 | xargs kill -9
 $ git init
 $ heroku git:remote -a employee-management-github
 
