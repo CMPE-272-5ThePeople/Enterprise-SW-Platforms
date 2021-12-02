@@ -8,7 +8,6 @@ function requireHTTPS(req, res, next) {
 const express = require('express');
 const app = express();
 app.use(requireHTTPS);
-app.use(express.static('./dist/web-enterprise-sw-platforms'));
 if (process.env.NODE_ENV === 'production') {
 	app.use(express.static('client/build'));
 }
