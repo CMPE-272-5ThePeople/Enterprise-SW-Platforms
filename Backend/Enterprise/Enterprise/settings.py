@@ -64,6 +64,7 @@ INSTALLED_APPS = [
     'rest_framework',  # django rest framework app
     'social_django',  # django social app
     'api_services',  # rest api app
+    'corsheaders',  # headers api
 
     'documents_api',  # documents api app
     'authentication',  # authentication app
@@ -73,6 +74,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -82,6 +84,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'Enterprise.urls'
+CORS_ALLOW_ALL_ORIGINS = True
 
 # white noise static files settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
