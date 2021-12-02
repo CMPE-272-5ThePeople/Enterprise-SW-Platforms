@@ -10,6 +10,7 @@ urlpatterns = [
     path('accounts/', include('accounts.urls', namespace='accounts')),
     path('dashboard/', include('dashboard.urls', namespace='dashboard')),
     path('api/', include('api_services.urls', namespace='api_services')),
+    path('documents/', include('documents_api.urls')),  # documents api
 ]
 
 if settings.DEBUG:

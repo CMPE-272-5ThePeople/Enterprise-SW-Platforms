@@ -888,3 +888,13 @@ django.db.utils.OperationalError: no such column: employee_employee.training_id
 2021-12-02 14:08:17,992 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
 2021-12-02 14:08:17,992 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
 2021-12-02 22:08:18,512 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-02 15:25:50,097 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 15:25:50,098 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 15:25:50,098 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 15:25:50,098 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 23:25:50,749 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-02 15:25:56,483 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 15:25:56,483 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 15:25:56,484 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 15:25:56,484 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 23:25:56,881 asyncio      DEBUG    Using selector: KqueueSelector

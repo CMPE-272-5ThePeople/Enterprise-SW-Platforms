@@ -85,6 +85,7 @@ INSTALLED_APPS = [
     'leave',
     'notifications',
     'api_services',
+    'documents_api', 
 
 ]
 
