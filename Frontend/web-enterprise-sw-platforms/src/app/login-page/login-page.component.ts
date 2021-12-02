@@ -27,8 +27,8 @@ export class LoginPageComponent implements OnInit {
         Password: this.password,
       });
       let poolData = {
-        UserPoolId: environment.cognitoUserPoolId, // Your user pool id here
-        ClientId: environment.cognitoAppClientId // Your client id here
+        UserPoolId: "us-west-2_JaNWIhEZa",
+        ClientId: "5qb4h3oijnu08htlsubpgo0m6b"
       };
 
       let userPool = new CognitoUserPool(poolData);
@@ -41,16 +41,16 @@ export class LoginPageComponent implements OnInit {
           var sessionIdInfo: any;
           sessionIdInfo = jwt_decode(result.getIdToken().getJwtToken());
           console.log(sessionIdInfo['cognito:groups']);
-          if(sessionIdInfo['cognito:groups'][0] === 'employee') {
+          if (sessionIdInfo['cognito:groups'][0] === 'employee') {
             localStorage.setItem('role', 'emp')
             this.router.navigate(["emp"])
-          } else if(sessionIdInfo['cognito:groups'][0] === 'manager') {
+          } else if (sessionIdInfo['cognito:groups'][0] === 'manager') {
             localStorage.setItem('role', 'manager')
             this.router.navigate(["manager"])
-          } else if(sessionIdInfo['cognito:groups'][0] === 'omega') {
+          } else if (sessionIdInfo['cognito:groups'][0] === 'omega') {
             localStorage.setItem('role', 'omega')
             this.router.navigate(["omega"])
-          } else if(sessionIdInfo['cognito:groups'][0] === 'admin') {
+          } else if (sessionIdInfo['cognito:groups'][0] === 'admin') {
             localStorage.setItem('role', 'admin')
             this.router.navigate(["signup"])
           }

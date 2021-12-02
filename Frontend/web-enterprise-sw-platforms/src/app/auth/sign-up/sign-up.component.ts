@@ -33,8 +33,8 @@ export class SignUpComponent implements OnInit {
     if (form.valid) {
      this.isLoading = true;
      var poolData = {
-       UserPoolId: environment.cognitoUserPoolId, // Your user pool id here
-       ClientId: environment.cognitoAppClientId // Your client id here
+      UserPoolId: "us-west-2_JaNWIhEZa",
+      ClientId: "5qb4h3oijnu08htlsubpgo0m6b"
      };
      var userPool = new CognitoUserPool(poolData);
      var attributeList = [];
