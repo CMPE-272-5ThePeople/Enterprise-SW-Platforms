@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import EmployeeViews, DepartmentViews, RoleViews, LeaveViews
+from .views import EmployeeViews, DepartmentViews, RoleViews, LeaveViews, NotificationViews
 
 app_name = 'api_services'
 
@@ -8,4 +8,5 @@ urlpatterns = [
     path('get_department_details/', DepartmentViews.as_view(), name="department_names"),
     path('get_role_details/', RoleViews.as_view(), name="role_names"),
     path('get_leave_details/', LeaveViews.as_view(), name="leave_details"),
+    path('get_notification_details/', NotificationViews.as_view(), name="leave_details"),
 ]

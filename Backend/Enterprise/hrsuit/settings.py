@@ -1,19 +1,57 @@
 import os
+from decouple import config
 import dj_database_url
 import django_heroku
+import yaml
+import logging
+
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
+# logging django settings
+logging.config.dictConfig({
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'console': {
+            'format': '%(name)-12s %(levelname)-8s %(message)s'
+        },
+        'file': {
+            'format': '%(asctime)s %(name)-12s %(levelname)-8s %(message)s'
+        }
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'console'
+        },
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'formatter': 'file',
+            'filename': 'production.log'
+        }
+    },
+    'loggers': {
+        '': {
+            'level': 'DEBUG',
+            'handlers': ['console', 'file']
+        }
+    }
+})
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'This Is Secret'
+# read config file
+with open("config.YAML", "r") as stream:
+    try:
+        config_file = yaml.safe_load(stream)
+    except yaml.YAMLError as exc:
+        logging.error(exc)
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
+# extract keys using decouple module
+SECRET_KEY = config_file['SECRET_KEY']
+DEBUG = config_file['DEBUG']
+ALLOWED_HOSTS = [config_file['ALLOWED_HOSTS']]
 
 # Email Settings
 EMAIL_HOST = 'smtp.gmail.com'
@@ -38,12 +76,14 @@ INSTALLED_APPS = [
     'phonenumber_field',
     'widget_tweaks',
     'rest_framework',
+    'corsheaders',  # headers api
 
     # PROJECT APPS
     'dashboard',
     'accounts',
     'employee',
     'leave',
+    'notifications',
     'api_services',
 
 ]
@@ -62,6 +102,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'hrsuit.urls'
 # white noise static files settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 TEMPLATES = [
@@ -85,12 +126,29 @@ WSGI_APPLICATION = 'hrsuit.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+'''
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': config_file['postgres_database']['database'],
+        'USER': config_file['postgres_database']['username'],
+        'PASSWORD': config_file['postgres_database']['password'],
+        'HOST': config_file['postgres_database']['host'],
+        'PORT': config_file['postgres_database']['port']
+    }
+}
+# database connection check in seconds
+db_from_env = dj_database_url.config(conn_max_age=1000)
+DATABASES['default'].update(db_from_env)
+
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -132,6 +190,19 @@ MEDIA_URL = '/media/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# AWS S3 BUCKETS SETTINGS
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+
+AWS_ACCESS_KEY_ID = config_file['AWS']['AWS_S3_BUCKET_ACCESS_ID']
+AWS_SECRET_ACCESS_KEY = config_file['AWS']['AWS_S3_BUCKET_ACCESS_KEY']
+AWS_STORAGE_BUCKET_NAME = config_file['AWS']['AWS_STORAGE_BUCKET_NAME']
+
+AWS_S3_REGION_NAME = 'us-east-2'
+AWS_S3_SIGNATURE_VERSION = 's3v4'
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT_ACL = None
+AWS_S3_VERIFY = True
 
 
 django_heroku.settings(locals())
