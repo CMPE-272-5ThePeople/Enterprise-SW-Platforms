@@ -1,18 +1,18 @@
-var express = require('express');
-var path = require('path');
-var app = express();
- 
- 
-const port = process.env.PORT||8080;
- 
-//Set static Folder
-app.use(express.static(path.join(__dirname + '/dist')));
- 
-//Index routing 
-app.get('/*', (req, res)=>{
-    res.sendFile(path.join(__dirname + '/dist/index.html'));
+function requireHTTPS(req, res, next) {
+    // The 'x-forwarded-proto' check is for Heroku
+    if (!req.secure && req.get('x-forwarded-proto') !== 'https') {
+        return res.redirect('https://' + req.get('host') + req.url);
+    }
+    next();
+}
+const express = require('express');
+const app = express();
+app.use(requireHTTPS);
+app.get('/*', (request, response) => {
+	response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
- 
-app.listen(port, function(){
-    console.log('Server started on port', port);
-});
+app.use(express.static('./dist/web-enterprise-sw-platforms'));
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static('client/build'));
+}
+app.listen(process.env.PORT || 8080);
