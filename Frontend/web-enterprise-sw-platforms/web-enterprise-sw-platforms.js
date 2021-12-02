@@ -9,8 +9,10 @@ const express = require('express');
 const app = express();
 app.use(requireHTTPS);
 app.use(express.static('./dist/web-enterprise-sw-platforms'));
-app.get('/*', function (req, res) {
-    res.sendFile('index.html', { root: 'dist/<web-enterprise-sw-platforms.json>/' }
-    );
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static('client/build'));
+}
+app.get('*', (request, response) => {
+	response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 app.listen(process.env.PORT || 8080);
