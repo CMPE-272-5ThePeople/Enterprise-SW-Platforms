@@ -39,7 +39,8 @@
               "node_modules/popper.js/dist/umd/popper.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "assets/js/app.min.js",
-              "assets/js/vendor.min.js"
+              "assets/js/vendor.min.js",
+              "node_modules/ng2-completer/bundles/ng2-completer.umd.js"
             ]
           },
           "configurations": {

@@ -14,6 +14,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { NoAccessComponent } from './no-access/no-access.component';
 import { AuthGuard } from './auth-guard';
 import { FormsModule } from '@angular/forms';
+import { Ng2CompleterModule } from 'ng2-completer';
+import { SignUpComponent } from './auth/sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
@@ -24,14 +26,16 @@ import { FormsModule } from '@angular/forms';
     AdminPageComponent,
     AboutPageComponent,
     OmegaPageComponent,
-    NoAccessComponent
+    NoAccessComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    Ng2CompleterModule
   ],
   providers: [AuthGuard],
   bootstrap: [AppComponent]

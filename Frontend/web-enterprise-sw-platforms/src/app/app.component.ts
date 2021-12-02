@@ -13,7 +13,7 @@ import * as _ from 'lodash';
 export class AppComponent {
   title = 'web-enterprise-sw-platforms';
   notifications: any;
-  finalnotifications: any;
+  finalnotifications = Array<any>();
   loginValue: any;
   constructor(private router: Router, private service: AppServiceService) {
     let urlRoute = this.router.events.subscribe(
@@ -33,6 +33,5 @@ export class AppComponent {
   }
   ngOnInit() {
     this.getData()
-
   }
 }
