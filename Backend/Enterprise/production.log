@@ -239,3 +239,859 @@ KeyError: 'id'
 2021-12-02 02:15:54,704 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
 2021-12-02 02:16:05,110 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
 2021-12-02 02:16:05,110 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2021-12-01 19:08:12,701 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:08:12,701 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:08:12,701 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:08:12,701 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:08:13,003 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:09:26,921 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:09:26,921 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:09:26,922 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:09:26,922 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-01 19:09:34,579 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:09:34,579 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:09:34,579 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:09:34,579 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:09:34,765 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:26:46,262 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:26:46,262 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:26:46,262 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:26:46,262 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:26:46,708 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:27:04,886 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:27:04,891 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:27:04,892 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:27:04,892 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:27:05,298 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:27:58,278 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:27:58,278 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:27:58,278 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:27:58,278 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:27:58,675 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:28:15,415 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:28:15,415 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:28:15,415 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:28:15,415 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:28:15,832 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:28:21,480 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:28:21,480 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:28:21,480 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:28:21,480 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:28:21,774 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:28:58,344 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:28:58,344 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:28:58,344 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:28:58,345 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:28:58,638 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:29:05,123 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:29:05,123 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:29:05,123 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:29:05,123 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:29:05,420 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:29:12,428 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:29:12,428 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:29:12,428 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:29:12,429 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:29:12,714 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:29:58,280 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:29:58,280 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:29:58,280 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:29:58,280 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:29:58,682 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:30:13,382 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:30:13,383 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:30:13,383 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:30:13,383 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:30:13,821 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:30:18,864 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:30:18,864 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:30:18,864 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:30:18,864 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:30:19,222 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:31:06,553 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:31:06,553 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:31:06,553 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:31:06,553 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:31:06,973 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:31:13,798 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:31:13,798 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:31:13,798 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:31:13,798 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:31:14,094 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:31:19,315 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:31:19,315 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:31:19,315 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:31:19,316 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:31:19,599 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:32:40,902 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:32:40,902 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:32:40,902 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:32:40,902 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:32:41,332 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:32:47,393 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:32:47,393 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:32:47,393 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:32:47,394 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:32:47,787 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:32:52,901 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:32:52,901 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:32:52,901 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:32:52,901 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:32:53,188 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:34:14,635 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:34:14,635 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:34:14,636 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:34:14,636 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:34:15,046 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:34:20,882 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:34:20,882 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:34:20,883 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:34:20,883 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:34:21,173 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:34:31,011 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:34:31,011 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:34:31,011 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:34:31,011 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:34:31,287 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:35:07,685 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:35:07,686 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:35:07,686 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:35:07,686 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:35:08,229 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 03:35:08,229 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 03:35:08,230 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 03:35:08,230 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:35:08,434 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 03:35:08,809 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:35:16,447 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:35:16,447 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:35:16,447 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:35:16,447 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:35:16,893 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 03:35:16,893 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 03:35:16,893 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 03:35:16,893 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:35:17,081 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 03:35:19,000 django.request WARNING  Not Found: /
+2021-12-02 03:36:22,126 django.utils.autoreload INFO     /Users/aryanjadon/Desktop/Heroku/Enterprise-SW-Platforms/Backend/Enterprise/employees/admin.py changed, reloading.
+2021-12-02 03:36:22,126 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-02 03:36:22,702 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 03:36:22,702 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 03:36:22,703 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 03:36:22,703 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:36:23,032 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 03:37:04,150 django.request ERROR    Internal Server Error: /admin/employees/department/
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "employees_department" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "employees_department"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1693, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/options.py", line 735, in get_changelist_instance
+    return ChangeList(
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/views/main.py", line 100, in __init__
+    self.get_results(request)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/views/main.py", line 235, in get_results
+    result_count = paginator.count
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/core/paginator.py", line 94, in count
+    return c()
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/query.py", line 411, in count
+    return self.query.get_count(using=self.db)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/sql/query.py", line 515, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/sql/query.py", line 500, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "employees_department" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "employees_department"
+                                          ^
+
+2021-12-02 03:37:17,200 django.request ERROR    Internal Server Error: /admin/employees/employee/
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column employees_employee.employee_user_id does not exist
+LINE 1: SELECT "employees_employee"."employee_user_id", "employees_e...
+               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1811, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column employees_employee.employee_user_id does not exist
+LINE 1: SELECT "employees_employee"."employee_user_id", "employees_e...
+               ^
+
+2021-12-02 03:38:12,190 django.utils.autoreload INFO     /Users/aryanjadon/Desktop/Heroku/Enterprise-SW-Platforms/Backend/Enterprise/employees/models.py changed, reloading.
+2021-12-02 03:38:12,191 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-02 03:38:12,736 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 03:38:12,737 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 03:38:12,737 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 03:38:12,737 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:38:13,025 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 03:38:17,774 django.request ERROR    Internal Server Error: /admin/employees/employee/
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column employees_employee.employee_department_id does not exist
+LINE 1: ...me", "employees_employee"."employee_designation", "employees...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1811, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column employees_employee.employee_department_id does not exist
+LINE 1: ...me", "employees_employee"."employee_designation", "employees...
+                                                             ^
+
+2021-12-02 03:38:20,084 django.request ERROR    Internal Server Error: /admin/employees/employee/
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: column employees_employee.employee_department_id does not exist
+LINE 1: ...me", "employees_employee"."employee_designation", "employees...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1811, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/query.py", line 269, in __len__
+    self._fetch_all()
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: column employees_employee.employee_department_id does not exist
+LINE 1: ...me", "employees_employee"."employee_designation", "employees...
+                                                             ^
+
+2021-12-01 19:40:42,041 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:40:42,041 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:40:42,041 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:40:42,041 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:40:42,456 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:40:47,634 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:40:47,634 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:40:47,634 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:40:47,634 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:40:47,917 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:40:54,519 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:40:54,519 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:40:54,519 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:40:54,519 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:40:54,982 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 03:40:54,983 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 03:40:54,983 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 03:40:54,983 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:40:55,192 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 03:40:55,699 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:40:59,711 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:40:59,711 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:40:59,711 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:40:59,712 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:41:00,196 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 03:41:00,196 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 03:41:00,196 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 03:41:00,196 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:41:00,387 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 03:41:26,269 django.request ERROR    Internal Server Error: /admin/employees/department/
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "employees_department" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "employees_department"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1693, in changelist_view
+    cl = self.get_changelist_instance(request)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/options.py", line 735, in get_changelist_instance
+    return ChangeList(
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/views/main.py", line 100, in __init__
+    self.get_results(request)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/contrib/admin/views/main.py", line 235, in get_results
+    result_count = paginator.count
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/core/paginator.py", line 94, in count
+    return c()
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/query.py", line 411, in count
+    return self.query.get_count(using=self.db)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/sql/query.py", line 515, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/sql/query.py", line 500, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/opt/miniconda3/envs/enterprise_project/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "employees_department" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "employees_department"
+                                          ^
+
+2021-12-01 19:46:57,496 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:46:57,496 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:46:57,496 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:46:57,496 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:46:57,964 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:47:15,000 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:47:15,001 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:47:15,001 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:47:15,001 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:47:15,406 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:47:23,823 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:47:23,823 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:47:23,823 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:47:23,823 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:47:24,107 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:47:39,616 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:47:39,617 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:47:39,617 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:47:39,617 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:47:39,906 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:47:45,733 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:47:45,733 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:47:45,733 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:47:45,733 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:47:46,188 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 03:47:46,188 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 03:47:46,188 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 03:47:46,188 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:47:46,374 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 03:47:46,814 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:47:53,791 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:47:53,791 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:47:53,792 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:47:53,792 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:47:54,078 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:48:05,123 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:48:05,124 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:48:05,124 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:48:05,124 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:48:05,406 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:48:17,712 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:48:17,713 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:48:17,713 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:48:17,713 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:48:17,994 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:48:25,814 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:48:25,814 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:48:25,814 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:48:25,814 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:48:26,109 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:48:35,604 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:48:35,605 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:48:35,605 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:48:35,605 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:48:35,886 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:48:47,195 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:48:47,195 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:48:47,195 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:48:47,195 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:48:47,482 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:48:55,086 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:48:55,086 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:48:55,086 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:48:55,086 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:48:55,541 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 03:48:55,541 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 03:48:55,541 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 03:48:55,541 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:48:55,727 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 03:48:55,999 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:49:05,130 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:49:05,130 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:49:05,130 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:49:05,130 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:49:05,575 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 03:49:05,575 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 03:49:05,575 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 03:49:05,575 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:49:05,753 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 03:49:12,748 django.request WARNING  Not Found: /
+2021-12-02 03:51:05,404 django.request WARNING  Not Found: /
+2021-12-02 03:51:19,040 django.request WARNING  Not Found: /api/
+2021-12-02 03:51:23,916 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2021-12-02 03:51:23,917 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2021-12-01 19:58:42,355 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:58:42,355 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:58:42,355 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:58:42,355 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:58:42,834 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:58:48,116 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:58:48,116 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:58:48,116 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:58:48,116 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:58:48,399 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:58:54,033 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:58:54,033 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:58:54,033 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:58:54,033 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:58:54,314 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:59:10,158 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:59:10,159 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:59:10,159 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:59:10,159 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:59:10,555 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:59:28,106 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:59:28,106 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:59:28,106 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:59:28,106 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:59:28,388 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:59:35,777 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:59:35,777 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:59:35,777 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:59:35,777 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:59:36,058 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 19:59:40,802 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 19:59:40,802 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 19:59:40,803 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 19:59:40,803 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 03:59:41,082 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:01:11,720 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:01:11,720 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:01:11,720 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:01:11,720 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:01:12,204 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:01:21,313 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:01:21,313 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:01:21,313 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:01:21,314 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:01:21,609 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:01:28,769 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:01:28,769 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:01:28,770 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:01:28,770 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:01:29,056 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:02:17,541 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:02:17,541 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:02:17,541 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:02:17,541 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:02:17,947 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:02:51,090 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:02:51,090 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:02:51,091 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:02:51,091 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:02:51,540 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:02:58,194 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:02:58,194 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:02:58,194 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:02:58,194 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:02:58,576 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:03:08,100 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:03:08,100 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:03:08,100 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:03:08,100 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:03:08,386 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:03:11,462 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:03:11,462 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:03:11,462 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:03:11,462 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:03:11,798 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:03:29,225 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:03:29,225 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:03:29,225 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:03:29,225 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:03:29,638 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:04:12,416 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:04:12,416 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:04:12,416 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:04:12,416 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:04:12,903 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:06:40,560 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:06:40,560 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:06:40,561 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:06:40,561 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:06:41,030 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:06:47,159 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:06:47,159 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:06:47,160 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:06:47,160 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:06:47,440 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:06:52,150 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:06:52,150 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:06:52,150 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:06:52,150 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:06:52,433 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:07:33,400 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:07:33,401 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:07:33,401 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:07:33,401 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:07:33,819 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:08:47,804 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:08:47,804 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:08:47,805 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:08:47,805 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:08:48,207 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:08:53,457 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:08:53,458 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:08:53,458 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:08:53,458 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:08:53,807 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:09:13,237 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:09:13,238 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:09:13,238 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:09:13,238 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:09:13,675 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:09:23,718 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:09:23,718 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:09:23,719 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:09:23,719 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:09:24,027 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:09:30,030 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:09:30,030 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:09:30,030 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:09:30,030 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:09:30,316 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:10:31,218 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:10:31,219 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:10:31,219 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:10:31,219 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-01 20:10:44,213 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:10:44,213 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:10:44,213 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:10:44,213 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:10:44,602 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:10:54,787 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:10:54,787 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:10:54,787 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:10:54,787 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:10:55,074 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:11:01,869 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:11:01,869 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:11:01,869 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:11:01,869 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:11:02,152 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:12:21,788 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:12:21,788 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:12:21,788 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:12:21,788 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:12:22,254 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:12:27,326 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:12:27,327 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:12:27,327 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:12:27,327 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:12:27,669 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:12:49,148 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:12:49,148 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:12:49,148 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:12:49,148 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:12:49,569 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:12:54,278 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:12:54,278 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:12:54,278 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:12:54,278 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:12:54,568 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:13:14,866 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:13:14,866 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:13:14,866 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:13:14,867 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:13:15,157 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:13:17,252 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:13:17,253 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:13:17,253 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:13:17,253 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:13:17,545 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:13:41,733 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:13:41,733 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:13:41,734 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:13:41,734 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:13:42,169 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:13:44,365 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:13:44,365 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:13:44,366 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:13:44,366 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:13:44,694 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:13:56,613 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:13:56,613 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:13:56,614 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:13:56,614 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:13:57,071 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 04:13:57,071 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 04:13:57,071 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 04:13:57,071 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:13:57,253 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 04:13:57,600 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:24:46,804 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:24:46,805 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:24:46,806 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:24:46,806 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:24:47,272 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:24:52,910 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:24:52,911 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:24:52,911 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:24:52,911 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:24:53,333 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:25:02,821 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:25:02,821 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:25:02,822 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:25:02,822 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-01 20:25:10,738 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:25:10,738 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:25:10,738 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:25:10,738 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:25:11,104 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:25:19,082 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:25:19,082 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:25:19,082 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:25:19,083 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:25:19,462 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:25:25,497 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:25:25,497 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:25:25,497 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:25:25,497 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:25:25,791 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:35:42,504 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:35:42,505 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:35:42,505 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:35:42,505 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:35:42,989 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:35:48,537 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:35:48,537 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:35:48,537 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:35:48,537 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:35:48,827 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:36:04,192 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:36:04,192 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:36:04,193 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:36:04,193 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:36:04,619 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:36:09,814 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:36:09,814 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:36:09,814 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:36:09,814 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:36:10,093 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:36:25,418 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:36:25,419 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:36:25,419 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:36:25,419 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:36:25,814 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:36:41,005 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:36:41,006 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:36:41,006 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:36:41,006 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:36:41,420 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:36:49,052 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:36:49,052 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:36:49,052 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:36:49,052 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:36:49,529 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 04:36:49,529 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 04:36:49,529 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 04:36:49,529 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:36:49,728 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 04:36:50,074 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-01 20:37:00,469 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-01 20:37:00,470 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-01 20:37:00,470 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-01 20:37:00,470 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:37:00,928 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 04:37:00,929 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 04:37:00,929 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 04:37:00,929 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:37:01,123 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 04:37:08,067 django.request WARNING  Not Found: /
+2021-12-02 04:37:33,913 django.utils.autoreload INFO     /Users/aryanjadon/Desktop/Heroku/Enterprise-SW-Platforms/Backend/Enterprise/api_services/urls.py changed, reloading.
+2021-12-02 04:37:33,916 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-02 04:37:34,716 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 04:37:34,717 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 04:37:34,717 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 04:37:34,717 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:37:35,082 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 04:37:55,163 django.utils.autoreload INFO     /Users/aryanjadon/Desktop/Heroku/Enterprise-SW-Platforms/Backend/Enterprise/api_services/urls.py changed, reloading.
+2021-12-02 04:37:55,163 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-02 04:37:55,895 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 04:37:55,895 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 04:37:55,896 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 04:37:55,896 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:37:56,151 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 04:38:13,086 django.utils.autoreload INFO     /Users/aryanjadon/Desktop/Heroku/Enterprise-SW-Platforms/Backend/Enterprise/api_services/urls.py changed, reloading.
+2021-12-02 04:38:13,086 asyncio      DEBUG    Using selector: KqueueSelector
+2021-12-02 04:38:13,567 django_heroku.core INFO     $DATABASE_URL not found, falling back to previous settings!
+2021-12-02 04:38:13,567 django_heroku.core INFO     Applying Heroku Staticfiles configuration to Django settings.
+2021-12-02 04:38:13,567 django_heroku.core INFO     Applying Heroku ALLOWED_HOSTS configuration to Django settings.
+2021-12-02 04:38:13,568 django_heroku.core INFO     Applying Heroku logging configuration to Django settings.
+2021-12-02 04:38:13,824 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-12-02 04:38:20,327 django.request WARNING  Not Found: /
+2021-12-02 04:38:25,471 django.request WARNING  Not Found: /api/
+2021-12-02 04:38:29,516 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2021-12-02 04:38:29,517 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".
+2021-12-02 04:38:39,595 MARKDOWN     DEBUG    Successfully imported extension module "markdown.extensions.toc".
+2021-12-02 04:38:39,596 MARKDOWN     DEBUG    Successfully loaded extension "markdown.extensions.toc.TocExtension".

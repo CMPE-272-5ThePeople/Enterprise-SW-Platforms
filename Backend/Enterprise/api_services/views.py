@@ -8,9 +8,11 @@ from django.contrib.auth import logout as log_out
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from .serializers import EmployeeSerializer, NotificationsSerializer
+from .serializers import EmployeeSerializer, NotificationsSerializer, TrainingSerializer, ProjectSerializer
 from notifications.models import Notifications
 from employees.models import Employee
+from projects.models import Projects
+from trainings.models import Training
 
 
 # Create your views here.
@@ -80,4 +82,66 @@ class NotificationViews(APIView):
         else:
             return Response({"status": "error",
                              "notification_data": serializer.errors},
+                            status=status.HTTP_400_BAD_REQUEST)
+
+
+# Create your views here.
+class TrainingViews(APIView):
+    def get(self, request):
+        try:
+            all_training_objects = Training.objects.all().values()
+            api_response = {}
+            for objects in all_training_objects:
+                # TODO - Add here
+                api_response[objects['id']] = {}
+
+            return Response({"status": "success",
+                             "training_data": api_response},
+                            status=status.HTTP_200_OK)
+        except Exception as e:
+            return Response({"status": "error",
+                             "training_data": str(e)},
+                            status=status.HTTP_400_BAD_REQUEST)
+
+    def post(self, request):
+        serializer = TrainingSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"status": "success",
+                             "training_data": serializer.data},
+                            status=status.HTTP_200_OK)
+        else:
+            return Response({"status": "error",
+                             "training_data": serializer.errors},
+                            status=status.HTTP_400_BAD_REQUEST)
+
+
+class ProjectView(APIView):
+    def get(self, request):
+        try:
+            all_employee_objects = Projects.objects.all().values()
+            api_response = {}
+
+            for objects in all_employee_objects:
+                # TODO - Add here
+                api_response[objects['id']] = {}
+
+            return Response({"status": "success",
+                             "project_data": api_response},
+                            status=status.HTTP_200_OK)
+        except Exception as e:
+            return Response({"status": "error",
+                             "employee_data": str(e)},
+                            status=status.HTTP_400_BAD_REQUEST)
+
+    def post(self, request):
+        serializer = ProjectSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"status": "success",
+                             "project_data": serializer.data},
+                            status=status.HTTP_200_OK)
+        else:
+            return Response({"status": "error",
+                             "project_data": serializer.errors},
                             status=status.HTTP_400_BAD_REQUEST)

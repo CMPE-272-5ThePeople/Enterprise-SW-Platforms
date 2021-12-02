@@ -65,13 +65,15 @@ INSTALLED_APPS = [
     'social_django',  # django social app
     'api_services',  # rest api app
     'corsheaders',  # headers api
-    'phonenumber_field',
+    'phonenumber_field', # phone number field
 
     'documents_api',  # documents api app
     'authentication',  # authentication app
     'notifications',  # notifications app
     'employees',  # employees app
     'trainings',  # trainings app
+    'projects',  # projects app
+    'company_blog',  # company blog
 ]
 
 MIDDLEWARE = [
