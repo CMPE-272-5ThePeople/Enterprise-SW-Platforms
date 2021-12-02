@@ -23,6 +23,7 @@ export class SignUpComponent implements OnInit {
   email:string = '';
   mobileNo:string = '';
   password:string = '';
+  alertValue:boolean=false;
 
   constructor(private router: Router) { }
 
@@ -61,7 +62,12 @@ export class SignUpComponent implements OnInit {
          alert(err.message || JSON.stringify(err));
          return;
        }
-       this.router.navigate(['/home']);
+       this.alertValue = true
+        this.fname = '';
+        this.lname= '';
+        this.email= '';
+        this.mobileNo= '';
+        this.password= '';
      });
     }
  }

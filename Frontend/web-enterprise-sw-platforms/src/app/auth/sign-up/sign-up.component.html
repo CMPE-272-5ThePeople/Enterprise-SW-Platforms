@@ -10,7 +10,10 @@
                                 <span><img src="../../assets/Omega-logos_white.png" alt="" height="60"></span>
                             </a>
                         </div>
-
+                        <div *ngIf="alertValue" class="alert alert-success alert-dismissible bg-success text-white border-0 fade show" role="alert">
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            <strong>Success - </strong> Successfully added the user. Please login to your AWS account to confirm the user and assign the corresponding roles.
+                        </div>
                         <div class="card-body p-4">
 
                             <div class="text-center w-75 m-auto">
