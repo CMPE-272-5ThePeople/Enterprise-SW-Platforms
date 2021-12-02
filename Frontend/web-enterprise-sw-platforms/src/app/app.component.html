@@ -30,7 +30,7 @@
                         <div class="modal-body">
                             <div *ngFor="let item of finalnotifications">
                                 <h4>{{item.message}}</h4>
-                                <h6>Posted at: {{item.timestamp}}</h6>
+                                <h6>Posted at: {{item.timestamp|date:'medium'}}</h6>
                                 <hr>
                             </div>
                         </div>

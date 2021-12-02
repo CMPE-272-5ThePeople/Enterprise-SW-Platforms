@@ -23,7 +23,7 @@
                         <div class="page-title-box">
                             <h4 class="page-title">Post Notifications</h4>
                         </div>
-                        <div class="alert alert-success alert-dismissible bg-success text-white border-0 fade show" role="alert">
+                        <div *ngIf="notifcationSuccess" class="alert alert-success alert-dismissible bg-success text-white border-0 fade show" role="alert">
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                             <strong>Success - </strong> Successfully posted notification!
                         </div>
