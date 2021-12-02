@@ -1,8 +1,6 @@
 from rest_framework import serializers
+from employee.models import Employee, Department, Role, Leave
 from notifications.models import Notifications
-from employees.models import Employee
-from projects.models import Projects
-from trainings.models import Training
 
 
 class NotificationsSerializer(serializers.ModelSerializer):
@@ -17,13 +15,19 @@ class EmployeeSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-class TrainingSerializer(serializers.ModelSerializer):
+class DepartmentSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Projects
+        model = Department
         fields = '__all__'
 
 
-class ProjectSerializer(serializers.ModelSerializer):
+class RoleSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Training
+        model = Role
+        fields = '__all__'
+
+
+class LeaveSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Leave
         fields = '__all__'

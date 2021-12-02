@@ -1,10 +1,12 @@
 from django.urls import path
-from .views import EmployeeViews, NotificationViews, TrainingViews, ProjectView, BlogViews
+from .views import EmployeeViews, DepartmentViews, RoleViews, LeaveViews, NotificationViews
+
+app_name = 'api_services'
 
 urlpatterns = [
     path('get_employee_details/', EmployeeViews.as_view(), name="employee_names"),
-    path('get_all_notifications/', NotificationViews.as_view(), name="notification_views"),
-    path('get_all_projects/', TrainingViews.as_view(), name="training_views"),
-    path('get_all_trainings/', ProjectView.as_view(), name="project_views"),
-    path('get_blog_data/', BlogViews.as_view(), name="blog_views"),
+    path('get_department_details/', DepartmentViews.as_view(), name="department_names"),
+    path('get_role_details/', RoleViews.as_view(), name="role_names"),
+    path('get_leave_details/', LeaveViews.as_view(), name="leave_details"),
+    path('get_notification_details/', NotificationViews.as_view(), name="leave_details"),
 ]

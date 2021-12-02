@@ -1,0 +1,12 @@
+lsof -t -i tcp:7000 | xargs kill -9
+$ git init
+$ heroku git:remote -a employee-management-github
+
+
+postgres://egccpuadyxzmvz:8e461852d5878c9cc5a0a028ffba61368fd268b8af23cf8be2714709f4119291@ec2-44-193-111-218.compute-1.amazonaws.com:5432/d5qttie29kjfr9
+DATABASE_URL
+
+postgres://doadmin:Fk45jqgk7Vh9NPkE@db-postgresql-sfo2-56824-do-user-10176564-0.b.db.ondigitalocean.com:25060/testingdb
+
+
+postgres://doadmin:Fk45jqgk7Vh9NPkE@db-postgresql-sfo2-56824-do-user-10176564-0.b.db.ondigitalocean.com:25060/testingdb
