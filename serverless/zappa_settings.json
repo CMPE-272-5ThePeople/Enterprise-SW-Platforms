@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "django_settings": "EmailService.settings",
+        "profile_name": "default",
+        "project_name": "serverless",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-ac4ci8f93",
+        "aws_region": "us-west-2"
+    }
+}
