@@ -38,6 +38,7 @@ export class AuthService {
     let token = localStorage.getItem('role');
     token = '/'+token
     if (token === url) return true
+    else if (url === '/signup') return true
     return false
   }
 }

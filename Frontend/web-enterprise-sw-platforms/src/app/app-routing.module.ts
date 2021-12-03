@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'admin', component: AdminPageComponent },
   { path: 'omega', component: OmegaPageComponent, canActivate: [AuthGuard] },
   { path: 'noaccess', component: NoAccessComponent},
-  {path: 'signup', component:SignUpComponent},
+  {path: 'signup', component:SignUpComponent,canActivate: [AuthGuard]},
   { path: '**', redirectTo: 'home' }
 ];
 

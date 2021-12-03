@@ -3,6 +3,7 @@ import { CognitoUserPool,CognitoUserAttribute } from 'amazon-cognito-identity-js
 import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment';
+import { AppServiceService } from '../../app-service.service' 
 
 interface formDataInterface {
   "name": string;
@@ -25,7 +26,7 @@ export class SignUpComponent implements OnInit {
   password:string = '';
   alertValue:boolean=false;
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private service:AppServiceService) { }
 
   ngOnInit(): void {}
 
@@ -42,7 +43,7 @@ export class SignUpComponent implements OnInit {
        "name": this.fname,
        "family_name": this.lname,
        "email": this.email,
-       "phone_number": this.mobileNo,
+       "phone_number": this.mobileNo
      }
 
      for (let key  in formData) {
@@ -62,6 +63,7 @@ export class SignUpComponent implements OnInit {
          alert(err.message || JSON.stringify(err));
          return;
        }
+       this.sendToBackend()
        this.alertValue = true
         this.fname = '';
         this.lname= '';
@@ -70,5 +72,10 @@ export class SignUpComponent implements OnInit {
         this.password= '';
      });
     }
+ }
+ sendToBackend() {
+  this.service.postToBackend(this.email,this.password).subscribe(response => {
+    console.log(response)
+  })
  }
 }

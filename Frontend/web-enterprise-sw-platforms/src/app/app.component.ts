@@ -4,6 +4,7 @@ import { AppServiceService } from '../app/app-service.service'
 import Notifications from './models/notifications'
 import { NavigationStart, Event as NavigationEvent } from '@angular/router';
 import * as _ from 'lodash';
+import { CognitoUserPool } from 'amazon-cognito-identity-js';
 
 @Component({
   selector: 'app-root',
@@ -25,11 +26,24 @@ export class AppComponent {
         }
       })
   }
-  getData () {
+  getData() {
     this.service.getNotifications().subscribe(response => {
       this.notifications = Object.values(response)
       this.finalnotifications = Object.values(this.notifications[1])
     })
+  }
+  onLogout() {
+    let poolData = {
+      UserPoolId: "us-west-2_JaNWIhEZa",
+      ClientId: "5qb4h3oijnu08htlsubpgo0m6b"
+    };
+    let userPool = new CognitoUserPool(poolData);
+    let cognitoUser = userPool.getCurrentUser();
+    cognitoUser?.signOut();
+    this.loginValue = false
+    localStorage.removeItem('role')
+    localStorage.clear()
+    this.router.navigate(["home"])
   }
   ngOnInit() {
     this.getData()

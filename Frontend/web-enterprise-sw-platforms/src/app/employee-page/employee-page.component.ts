@@ -25,4 +25,7 @@ export class EmployeePageComponent implements OnInit {
   trainingValue (training:any) {
     console.log(training)
   }
+  postLinkedIn(){
+    window.open('https://www.linkedin.com/')
+  }
 }
