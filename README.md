@@ -1,9 +1,10 @@
 # Enterprise-SW-Platforms
 
-1. Jenkins
-2. Sonar Qube
-3. S3 Document Uploading
-4. Django Backend
+1. Swathi Anandram
+2. Aryan Jadon
+3. Shreya Nimbhorkar
+4. Harika Nalam
+5. Supreetha M A
 
 
 # Open the Reports folder to access the following documents:
