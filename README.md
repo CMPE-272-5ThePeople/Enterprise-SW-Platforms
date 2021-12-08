@@ -6,8 +6,9 @@
 4. Django Backend
 
 
-Open the Reports folder to access the following documents:
-1.Project Team formation report
+# Open the Reports folder to access the following documents:
+
+1. Project Team formation report
 2. Project Abstract report
 3. Project Plan report
 4. Project PPT
